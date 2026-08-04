@@ -1,12 +1,25 @@
-STUDIO EMPIRE 1.8.0 - REAL MOVIE ARCHIVE
+# Studio Empire
 
-1. Upload index.html, service-worker.js and manifest.webmanifest to the root of the Studio-Empire GitHub repository.
-2. Wait for GitHub Pages to finish deploying.
-3. Remove and reinstall the PWA, or open it online and reload it twice so the new service worker activates.
-4. On the New Game screen, tap "Download / update database".
-5. Keep the app open and online until the progress reaches 100%.
-6. The archive is then stored in IndexedDB and works offline.
+Studio Empire is an offline-capable movie studio management game.
 
-The archive downloads notable films with an English Wikipedia page and IMDb ID from Wikidata, covering 1985 through the current date. The date used is the first recorded public release date. Regional theatrical dates can differ.
+## Features
 
-The archive itself is not included in save files, so it does not make autosaves too large. The game only puts a rolling calendar window into each active save.
+- Build and manage a film studio
+- Develop, finance, produce and release movies
+- Hire actors, directors, writers and producers
+- Manage budgets, marketing, distribution and awards
+- Historical movie release database from 1985 onward
+- Offline gameplay through a service worker
+- Persistent local save system
+
+## Installation
+
+Open the GitHub Pages website in Chrome and select:
+
+**Menu → Install app**
+
+After opening the game online once, it can be played offline.
+
+## Save data
+
+Game progress is stored locally on the device. Clearing browser data or uninstalling the app may remove saves.
